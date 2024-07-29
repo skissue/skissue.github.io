@@ -25,9 +25,10 @@
         ...
       }: {
         apps = {
-          hugo-build.program = pkgs.writeShellScriptBin "hugo-build" ''
-            hugo --minify --environment production
-          '';
+          hugo-build.program = with pkgs;
+            writeShellScriptBin "hugo-build" ''
+              ${lib.getExe hugo} --minify --environment production
+            '';
         };
 
         devshells.default = with pkgs; {
