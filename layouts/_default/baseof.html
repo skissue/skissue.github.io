@@ -7,6 +7,10 @@
     <title></title>
     <meta name="description" content="{{ block "desc" . }}{{ end }}">
     <meta name="author" content="Ad (skissue)">
+
+    {{ with resources.Get "style/main.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="screen" />
+    {{ end }}
   </head>
   <body>
     <main>
