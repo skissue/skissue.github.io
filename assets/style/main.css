@@ -1,3 +1,71 @@
+:root {
+    --ctp-rosewater: var(--ctp-macchiato-rosewater);
+    --ctp-flamingo: var(--ctp-macchiato-flamingo);
+    --ctp-pink: var(--ctp-macchiato-pink);
+    --ctp-mauve: var(--ctp-macchiato-mauve);
+    --ctp-red: var(--ctp-macchiato-red);
+    --ctp-maroon: var(--ctp-macchiato-maroon);
+    --ctp-peach: var(--ctp-macchiato-peach);
+    --ctp-yellow: var(--ctp-macchiato-yellow);
+    --ctp-green: var(--ctp-macchiato-green);
+    --ctp-teal: var(--ctp-macchiato-teal);
+    --ctp-sky: var(--ctp-macchiato-sky);
+    --ctp-sapphire: var(--ctp-macchiato-sapphire);
+    --ctp-blue: var(--ctp-macchiato-blue);
+    --ctp-lavender: var(--ctp-macchiato-lavender);
+    --ctp-text: var(--ctp-macchiato-text);
+    --ctp-subtext1: var(--ctp-macchiato-subtext1);
+    --ctp-subtext0: var(--ctp-macchiato-subtext0);
+    --ctp-overlay2: var(--ctp-macchiato-overlay2);
+    --ctp-overlay1: var(--ctp-macchiato-overlay1);
+    --ctp-overlay0: var(--ctp-macchiato-overlay0);
+    --ctp-surface2: var(--ctp-macchiato-surface2);
+    --ctp-surface1: var(--ctp-macchiato-surface1);
+    --ctp-surface0: var(--ctp-macchiato-surface0);
+    --ctp-base: var(--ctp-macchiato-base);
+    --ctp-mantle: var(--ctp-macchiato-mantle);
+    --ctp-crust: var(--ctp-macchiato-crust);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --ctp-rosewater: var(--ctp-latte-rosewater);
+        --ctp-flamingo: var(--ctp-latte-flamingo);
+        --ctp-pink: var(--ctp-latte-pink);
+        --ctp-mauve: var(--ctp-latte-mauve);
+        --ctp-red: var(--ctp-latte-red);
+        --ctp-maroon: var(--ctp-latte-maroon);
+        --ctp-peach: var(--ctp-latte-peach);
+        --ctp-yellow: var(--ctp-latte-yellow);
+        --ctp-green: var(--ctp-latte-green);
+        --ctp-teal: var(--ctp-latte-teal);
+        --ctp-sky: var(--ctp-latte-sky);
+        --ctp-sapphire: var(--ctp-latte-sapphire);
+        --ctp-blue: var(--ctp-latte-blue);
+        --ctp-lavender: var(--ctp-latte-lavender);
+        --ctp-text: var(--ctp-latte-text);
+        --ctp-subtext1: var(--ctp-latte-subtext1);
+        --ctp-subtext0: var(--ctp-latte-subtext0);
+        --ctp-overlay2: var(--ctp-latte-overlay2);
+        --ctp-overlay1: var(--ctp-latte-overlay1);
+        --ctp-overlay0: var(--ctp-latte-overlay0);
+        --ctp-surface2: var(--ctp-latte-surface2);
+        --ctp-surface1: var(--ctp-latte-surface1);
+        --ctp-surface0: var(--ctp-latte-surface0);
+        --ctp-base: var(--ctp-latte-base);
+        --ctp-mantle: var(--ctp-latte-mantle);
+        --ctp-crust: var(--ctp-latte-crust);
+    }
+}
+
+* {
+    color: var(--ctp-text);
+}
+
+body {
+    background: var(--ctp-base);
+}
+
 main {
     margin: auto;
     max-width: 80ch;

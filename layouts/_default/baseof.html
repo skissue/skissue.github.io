@@ -8,7 +8,13 @@
     <meta name="description" content="{{ block "desc" . }}{{ end }}">
     <meta name="author" content="Ad (skissue)">
 
-    {{ with resources.Get "style/main.css" }}
+    {{
+       with slice
+         (resources.Get "style/catppuccin.css")
+         (resources.Get "style/main.css")
+       | resources.Concat "/style/bundle.css"
+       | minify
+    }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="screen" />
     {{ end }}
   </head>
