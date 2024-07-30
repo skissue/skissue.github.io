@@ -1,0 +1,10 @@
+#+title: skissue.xyz
+
+#+hugo_base_dir: .
+
+* Homepage
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_SECTION: /
+:END:
+** Hi 👋
