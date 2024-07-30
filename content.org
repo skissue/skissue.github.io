@@ -2,9 +2,9 @@
 
 #+hugo_base_dir: .
 
-* Homepage
+* Hi 👋
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_SECTION: /
 :END:
-** Hi 👋
+I'm Ad! Welcome to my humble corner of the Internet.

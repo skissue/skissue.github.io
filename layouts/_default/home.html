@@ -1,3 +1,14 @@
+{{ define "desc" }}Home{{ end }}
+
+{{ define "head" }}
+<style>
+  h1 {
+      font-size: 36pt;
+  }
+</style>
+{{ end }}
+
 {{ define "main" }}
+<h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ end }}

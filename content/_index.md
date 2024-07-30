@@ -1,7 +1,7 @@
 +++
-title = "Homepage"
+title = "Hi 👋"
 author = ["Ad"]
 draft = false
 +++
 
-## Hi 👋 {#hi}
+I'm Ad! Welcome to my humble corner of the Internet.

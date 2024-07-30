@@ -17,6 +17,8 @@
     }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="screen" />
     {{ end }}
+
+    {{ block "head" . }}{{ end }}
   </head>
   <body>
     <main>
