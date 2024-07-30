@@ -1,3 +1,6 @@
 baseURL = 'https://skissue.xyz'
 languageCode = 'en-us'
 title = 'skissue.xyz'
+
+[markup.goldmark.renderer]
+unsafe = true
