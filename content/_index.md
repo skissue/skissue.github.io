@@ -1,6 +1,6 @@
 +++
 title = "Hi 👋!"
-draft = false
+draft = true
 +++
 
 I'm Ad! Welcome to my humble corner of the Internet 🙂. I'm a programmer, FOSS proponent, Emacs enthusiast, and digital sovereignty advocate.

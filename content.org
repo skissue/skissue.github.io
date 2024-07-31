@@ -2,7 +2,7 @@
 
 #+hugo_base_dir: .
 
-* Hi 👋!
+* TODO Hi 👋!
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_SECTION: /
