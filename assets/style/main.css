@@ -71,3 +71,11 @@ main {
     margin: auto;
     max-width: 80ch;
 }
+
+h1 {
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
