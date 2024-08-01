@@ -27,7 +27,7 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
       - name: Build pages
-        run: nix run .#devshell -- hugo --minify --environment production
+        run: nix run .#devshell -- just build
       - name: Upload pages
         uses: actions/upload-pages-artifact@v3
         with:

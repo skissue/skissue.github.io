@@ -27,7 +27,7 @@
         packages.devshell = self'.devShells.default;
 
         devshells.default = with pkgs; {
-          commands = [{package = hugo;}];
+          commands = [{package = hugo;} {package = just;}];
         };
       };
     };
